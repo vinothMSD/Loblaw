@@ -28,6 +28,7 @@ public class Opwnwebpagewithmethod {
 	driver.findElementById("password").sendKeys("crmsfa");
 	driver.findElementByClassName("decorativeSubmit").click();
 	driver.findElementById("createLeadForm_companyName").sendKeys("Cognizant");
+	driver.findElementByLinkText("Create Lead").click();
 	}
 	public static void createLead() {
 		//ChromeDriver driver= new ChromeDriver();
