@@ -38,5 +38,6 @@ public class Opwnwebpagewithmethod {
 	driver.findElementByName("submitButton").click();
 	driver.findElementById("reassignToForm_newPartyId").sendKeys("SABARI");
 	driver.findElementByName("submitButton").click();
+	driver.findElementByClassName("Change for repository").click();
 	}
 }
